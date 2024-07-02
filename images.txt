@@ -1,7 +1,21 @@
-#支持私库
+#支持私库 
 k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
-xhofe/alist:latest
-#支持指定架构
---platform=linux/arm64 xiaoyaliu/alist
---platform=linux/arm64 1panel/openresty
-corentinth/it-tools:latest
+
+xhofe/alist:latest 
+#支持指定架构 
+--platform=linux/arm64 xiaoyaliu/alist 
+--platform=linux/amd64 xiaoyaliu/alist 
+--platform=linux/arm64 1panel/openresty 
+--platform=linux/amd64 1panel/openresty 
+corentinth/it-tools:latest 
+--platform=linux/amd64 ncarlier/mqtt:latest 
+--platform=linux/amd64 broadlinkac/broadlink_ac_mqtt:latest
+--platform=linux/amd64 redis:latest 
+--platform=linux/amd64 homeassistant/home-assistant:latest
+--platform=linux/arm64 homeassistant/home-assistant:latest
+--platform=linux/arm/v6 homeassistant/home-assistant:latest
+--platform=linux/arm/v7 homeassistant/home-assistant:latest
+--platform=linux/386 homeassistant/home-assistant:latest
+
+
+
