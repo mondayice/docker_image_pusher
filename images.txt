@@ -10,7 +10,9 @@ xhofe/alist
 --platform=linux/amd64 1panel/openresty
 corentinth/it-tools
 --platform=linux/amd64 ncarlier/mqtt:latest
---platform=linux/amd64 broadlinkac/broadlink_ac_mqt
+--platform=linux/amd64 broadlinkac/broadlink_ac_mqtt
+--platform=linux/arm/v7 broadlinkac/broadlink_ac_mqtt
+--platform=linux/arm64 broadlinkac/broadlink_ac_mqtt
 --platform=linux/amd64 redis:latest
 --platform=linux/amd64 homeassistant/home-assistant
 --platform=linux/arm64 homeassistant/home-assistant
