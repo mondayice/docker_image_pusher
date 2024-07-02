@@ -1,9 +1,9 @@
 name: Docker
 
 on:
-  workflow_dispatch:        
+  workflow_dispatch:
   push:
-    branches: [ main ]    
+    branches: [ main ]
   schedule:
     - cron: '00 23 * * *'
 
@@ -16,7 +16,7 @@ env:
 
 jobs:
 
-  build:
+  build:           
     name: Pull
     runs-on: ubuntu-latest
     steps:
